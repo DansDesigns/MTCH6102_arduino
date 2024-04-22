@@ -1,2 +1,1 @@
-# touch_timer
-Kitchen timer with a touch interface
+MTCH6102 Arduino Library Test
