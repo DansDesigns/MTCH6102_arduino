@@ -45,12 +45,12 @@ void setup() {
   Serial.println(data,BIN);
 
   // Set mode to Touch only
-  writeRegister(0x05, 0x02);
+ // writeRegister(0x05, 0x02);
 
 
-  data = readRegister(0x05);
-  Serial.print("MODE: ");
-  Serial.println(data,BIN);
+ // data = readRegister(0x05);
+ // Serial.print("MODE: ");
+ // Serial.println(data,BIN);
 
   data = readRegister(0x20);
   Serial.print("NUMBEROFXCHANNELS: ");
